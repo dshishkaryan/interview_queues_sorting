@@ -10,7 +10,7 @@ public class Main {
 
     }
 
-    public static List<Integer> sort(List<Queue<Integer>> list) {
+    public static List<Integer> sortIncomingQueses(List<Queue<Integer>> list) {
         ArrayList<Integer> result = new ArrayList<>();
         PriorityQueue<Integer> sortedElements = new PriorityQueue<>();
         Integer element;
